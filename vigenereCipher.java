@@ -91,6 +91,16 @@ public class vigenereCipher {
         return SYMBOLS.indexOf(c) != -1;
     }
 
+    public static boolean containsSymbols(String key) {
+        for (int i = 0; i < key.length(); i++) {
+            if (isSymbol(key.charAt(i))) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
     /* 
 
     // below code encrypts the message into characters which are not within the range of printable characters which makes it hard to decrypt
@@ -136,11 +146,18 @@ public class vigenereCipher {
         System.out.print("Enter the message to encrypt: ");
         String message = sc.nextLine();
 
-       System.out.print("Enter the key for encryption: ");
+        System.out.print("Enter the key for encryption: ");
         String key = sc.nextLine();
+
+        if (containsSymbols(key)) {
+            System.out.println("The key should only consists of alphabtes and digits. Make sure you enter a valid key. Exiting the program.");
+            return;
+        }
 
         String encrypted = encrypt(message, key);
         System.out.println("Encrypted message: " + encrypted);
+
+    
 
         System.out.print("Do you want to decrypt the encrypted message (y/n)? ");
         String choice = sc.nextLine().toLowerCase(); // Convert input to lowercase for easier comparison
