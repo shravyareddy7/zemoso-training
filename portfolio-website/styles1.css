@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: grey;
+    color: #fff;
+}
+
+.navbar {
+    width: 100%;
+    background: linear-gradient(90deg, #0f0f0f, #3c3c3c);
+    padding: 20px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    white-space: no-wrap;
+}
+
+.navbar-menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    position: relative;
+}
+.navbar-menu li a.active::after,
+.navbar-menu li a:hover::after,
+.navbar-menu li a:focus::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    bottom: -5px;
+    left: 0;
+}
+
+
+
+
+#photo {
+    display: block; 
+    margin: auto;
+    box-shadow: 0 4px 8px white; 
+    transition: transform 0.3s ease; 
+}
+
+#photo:hover {
+    transform: scale(1.1); /* Enlarge image on hover */
+    box-shadow: 0 4px 8px black;
+}
+
+.image-container {
+    display: flex;
+    padding: 50px 0px 50px;
+}
+
+.profile {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: transform 0.3s ease;
+    padding: 20px;
+    width: fit-content;
+    margin: auto;
+    border-style: outset;
+    border-color: #0f0f0f;
+}
+
+.profile:hover {
+    transform: scale(1.1); /* Enlarge the entire profile */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Increased shadow */
+}
+
+.name {
+    font-size: 60px;
+    color: black;
+    transition: text-shadow 0.3s ease;
+}
+
+.profile:hover .name {
+    text-shadow: 2px 2px 5px black, 4px 4px 10px silver; /* Black and silver text shadows */
+}
+
+.profile p {
+    margin: 10px 0;
+}
+
+.pagination-container {
+    position: fixed;
+    bottom: 150px; /* Adjust this value as needed */
+    left: 50%; /* Align to the center */
+    transform: translateX(-50%); /* Center horizontally */
+    z-index: 999; /* Ensure it's above other content */
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: black;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.about {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: transform 0.3s ease;
+    padding: 20px;
+    width: fit-content;
+    margin: 20px auto;
+    border-style: outset;
+    border-color: #0f0f0f;
+     margin: 150px 250px 0 250px;
+     background-color: #ddd;
+    color: black; 
+
+}
+
+
+
+.about:hover {
+    transform: scale(1.1); /* Enlarge the entire about section */
+    box-shadow: 0 8px 30px silver; /* Increased shadow */
+    text-shadow: silver;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+@media only screen and (max-width: 1000px) {
+    .about {
+        margin: 150px 100px 0 150px; 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .about {
+        margin: 50px auto 0 auto; 
+        padding: 10px; 
+}
+}
+
+.contact-me {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: transform 0.3s ease;
+    padding: 20px;
+    width: fit-content;
+    margin: 150px auto 0 auto; /* Center horizontally and set top margin */
+    border-style: outset;
+    border-color: #0f0f0f;
+    background-color: #ddd;
+    color: black;
+}
+
+.contact-me:hover {
+    transform: scale(1.1); /* Enlarge the entire contact-me section */
+    box-shadow: 0 8px 30px silver; /* Increased shadow */
+}
+
+.contact-me h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-me p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.contact-me ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-me ul ul {
+    display: inline; /* Display the nested ul inline */
+    padding-left: 0; /* Remove default padding */
+    margin-left: 10px; /* Add some margin between items */
+}
+
+.contact-me ul ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 10px; /* Add some margin between items */
+}
+
+.contact-me ul li {
+    margin-bottom: 10px;
+}
+
+.contact-me ul li a {
+    color: #351358;
+    text-decoration: none;
+}
+
+.contact-me ul li a:hover {
+    text-decoration: underline;
+}
+@media only screen and (max-width: 1000px) {
+    .contact-me {
+        margin: 150px 100px 50px 150px; 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .contact-me {
+        margin: 100px 50px 0 50px; 
+        padding: 10px; 
+}
+}
+.gallery {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: transform 0.3s ease;
+    padding: 20px;
+    width: calc(100% - 200px);
+    margin: 100px auto 0 auto; /* Center horizontally and set top margin */
+    border-style: outset;
+    border-color: #0f0f0f;
+    color: black;
+}
+
+.gallery-item:hover {
+    transform: scale(1.1); /* Enlarge the entire gallery item */
+    box-shadow: 0 8px 30px silver; /* Increased shadow */
+}
+
+.gallery h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    margin: 20px;
+}
+
+.gallery-item img {
+    width: 200px; /* Set the width to a specific value */
+    height: 200px; /* Set the height to a specific value */
+    object-fit: cover; /* Ensure the entire image is visible within the specified dimensions */
+}
+
+
+
+.gallery-pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
