@@ -15,7 +15,7 @@ console.log(mainfunc(add,1,2));
 console.log(mainfunc(sub,9,2));
 
 
-//arrow function 
+//arrow function to display first letters of two strings
 
 const func=(first,second)=>{
     if(first.length>0 && second.length>0){
