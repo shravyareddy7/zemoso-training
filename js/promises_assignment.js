@@ -22,7 +22,7 @@
 function getData(uId) {
     return new Promise((resolve, reject) => {
         /*
-        fetch('/apiednpoint').then(response => {
+        fetch('/apiendpoint/data').then(response => {
             if (!response.ok) {
                 throw new Error('Failed to fetch data');
             }
@@ -37,7 +37,7 @@ function getData(uId) {
         });
         */
         
-        
+
         setTimeout(() => {   
             const errorOccurred = false;
             if (errorOccurred) {
