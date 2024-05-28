@@ -19,20 +19,43 @@
 
 // How do you solve this problem. How can we wait for till the function execution is completed, so that we can have correct email at line 10?
 
-function getData(uId)
-{
-    return new Promise((resolve,reject)=>{
-        setTimeout(()=>{
-            console.log("Fetched the data!");
-                resolve("skc@gmail.com");    
-        },4000);
+function getData(uId) {
+    return new Promise((resolve, reject) => {
+        /*
+        fetch('/apiednpoint').then(response => {
+            if (!response.ok) {
+                throw new Error('Failed to fetch data');
+            }
+            return response.json();
+        })
+        .then(data => {
+            resolve(data.email);
+        })
+        .catch(error => {
+            // Handle any errors that occur during the fetch operation
+            reject(error);
+        });
+        */
+        
+        
+        setTimeout(() => {   
+            const errorOccurred = false;
+            if (errorOccurred) {
+                //error
+                reject(new Error('Failed to fetch data'));
+            } else {
+                //no error
+                console.log("Fetched the data!");
+                resolve("skc@gmail.com");
+            }
+        }, 4000);
     });
 }
+
 console.log("start");
 getData("skc").then(email=>{
     console.log("Email id of the user id is: " + email);
     console.log("end");
-}).catch(erroe=>{
-    console.log("Error occured");
-})
-
+}).catch(error=>{
+    console.log("Error occurred: "+error);
+});
