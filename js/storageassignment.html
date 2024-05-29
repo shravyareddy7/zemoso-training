@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>Storage assignment</h1>
+    <h2>Local score</h2>
+    <p id="local_score"> </p>
+    <h2>Session score</h2>
+    <p id="session_score"> </p>
+
+    <button id="local_button">increment local score</button>
+    <button id="session_button">increment session score</button>
+
+    <!-- Create a simple application which displays two counts:Local Score, Session Score 
+        and a button to increment these counts. Local score must persist in Local Storage and 
+        Session score must persist in Session Storage and must reset on closing the session.-->
+
+        
+    <script>
+        
+        if(localStorage.getItem('local score')===null)
+        localStorage.setItem('local score',0)
+        else
+        localStorage.setItem('local score',localStorage.getItem('local score'));
+
+        sessionStorage.setItem('session score',0);
+
+        //console.log(Number(localStorage.getItem('local score'))+1);
+        
+        
+        localscore_button=document.getElementById("local_button");
+        sessionscore_button=document.getElementById("session_button");
+
+        local_score=document.getElementById("local_score");
+        session_score=document.getElementById("session_score");
+
+        //values
+        local_score.innerText=localStorage.getItem('local score');
+        session_score.innerText=sessionStorage.getItem('session score');
+
+
+        localscore_button.addEventListener('click',function(){
+            let score=Number(localStorage.getItem('local score'));
+            localStorage.setItem('local score',score+1);
+            local_score.innerText=localStorage.getItem('local score');
+        })
+
+        sessionscore_button.addEventListener('click',function(){
+            let score=Number(sessionStorage.getItem('session score'));
+            sessionStorage.setItem('session score',score+1);
+            session_score.innerText=sessionStorage.getItem('session score');
+        })
+
+    </script>
+</body>
+</html>
