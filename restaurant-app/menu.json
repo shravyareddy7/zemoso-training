@@ -1,0 +1,383 @@
+[
+    
+        {
+          "dishName": "Caesar Salad",
+          "courseType": "Appetizer",
+          "price": 120.00
+        },
+        {
+          "dishName": "Bruschetta",
+          "courseType": "Appetizer",
+          "price": 95.00
+        },
+        {
+          "dishName": "Stuffed Mushrooms",
+          "courseType": "Appetizer",
+          "price": 110.00
+        },
+        {
+          "dishName": "Garlic Bread",
+          "courseType": "Appetizer",
+          "price": 85.00
+        },
+        {
+          "dishName": "Shrimp Cocktail",
+          "courseType": "Appetizer",
+          "price": 150.00
+        },
+        {
+          "dishName": "French Onion Soup",
+          "courseType": "Appetizer",
+          "price": 130.00
+        },
+        {
+          "dishName": "Tomato Basil Soup",
+          "courseType": "Appetizer",
+          "price": 115.00
+        },
+        {
+          "dishName": "Greek Salad",
+          "courseType": "Appetizer",
+          "price": 125.00
+        },
+        {
+          "dishName": "Chicken Wings",
+          "courseType": "Appetizer",
+          "price": 140.00
+        },
+        {
+          "dishName": "Caprese Salad",
+          "courseType": "Appetizer",
+          "price": 135.00
+        },
+        {
+          "dishName": "Margherita Pizza",
+          "courseType": "Main Course",
+          "price": 250.00
+        },
+        {
+          "dishName": "Spaghetti Carbonara",
+          "courseType": "Main Course",
+          "price": 280.00
+        },
+        {
+          "dishName": "Beef Stroganoff",
+          "courseType": "Main Course",
+          "price": 320.00
+        },
+        {
+          "dishName": "Chicken Alfredo",
+          "courseType": "Main Course",
+          "price": 300.00
+        },
+        {
+          "dishName": "Grilled Salmon",
+          "courseType": "Main Course",
+          "price": 350.00
+        },
+        {
+          "dishName": "Ribeye Steak",
+          "courseType": "Main Course",
+          "price": 400.00
+        },
+        {
+          "dishName": "Vegetable Stir Fry",
+          "courseType": "Main Course",
+          "price": 220.00
+        },
+        {
+          "dishName": "Chicken Parmesan",
+          "courseType": "Main Course",
+          "price": 310.00
+        },
+        {
+          "dishName": "Lamb Chops",
+          "courseType": "Main Course",
+          "price": 370.00
+        },
+        {
+          "dishName": "Shrimp Scampi",
+          "courseType": "Main Course",
+          "price": 330.00
+        },
+        {
+          "dishName": "Tiramisu",
+          "courseType": "Dessert",
+          "price": 180.00
+        },
+        {
+          "dishName": "Cheesecake",
+          "courseType": "Dessert",
+          "price": 190.00
+        },
+        {
+          "dishName": "Chocolate Lava Cake",
+          "courseType": "Dessert",
+          "price": 200.00
+        },
+        {
+          "dishName": "Apple Pie",
+          "courseType": "Dessert",
+          "price": 170.00
+        },
+        {
+          "dishName": "Panna Cotta",
+          "courseType": "Dessert",
+          "price": 160.00
+        },
+        {
+          "dishName": "Creme Brulee",
+          "courseType": "Dessert",
+          "price": 210.00
+        },
+        {
+          "dishName": "Mango Sorbet",
+          "courseType": "Dessert",
+          "price": 150.00
+        },
+        {
+          "dishName": "Banana Split",
+          "courseType": "Dessert",
+          "price": 195.00
+        },
+        {
+          "dishName": "Strawberry Shortcake",
+          "courseType": "Dessert",
+          "price": 185.00
+        },
+        {
+          "dishName": "Chocolate Mousse",
+          "courseType": "Dessert",
+          "price": 205.00
+        },
+        {
+          "dishName": "Mojito",
+          "courseType": "Beverage",
+          "price": 90.00
+        },
+        {
+          "dishName": "Margarita",
+          "courseType": "Beverage",
+          "price": 100.00
+        },
+        {
+          "dishName": "Pina Colada",
+          "courseType": "Beverage",
+          "price": 110.00
+        },
+        {
+          "dishName": "Lemonade",
+          "courseType": "Beverage",
+          "price": 70.00
+        },
+        {
+          "dishName": "Iced Tea",
+          "courseType": "Beverage",
+          "price": 60.00
+        },
+        {
+          "dishName": "Espresso",
+          "courseType": "Beverage",
+          "price": 80.00
+        },
+        {
+          "dishName": "Cappuccino",
+          "courseType": "Beverage",
+          "price": 85.00
+        },
+        {
+          "dishName": "Smoothie",
+          "courseType": "Beverage",
+          "price": 95.00
+        },
+        {
+          "dishName": "Milkshake",
+          "courseType": "Beverage",
+          "price": 105.00
+        },
+        {
+          "dishName": "Hot Chocolate",
+          "courseType": "Beverage",
+          "price": 75.00
+        },
+        {
+          "dishName": "Nachos",
+          "courseType": "Appetizer",
+          "price": 130.00
+        },
+        {
+          "dishName": "Mozzarella Sticks",
+          "courseType": "Appetizer",
+          "price": 125.00
+        },
+        {
+          "dishName": "Eggplant Parmesan",
+          "courseType": "Main Course",
+          "price": 270.00
+        },
+        {
+          "dishName": "BBQ Ribs",
+          "courseType": "Main Course",
+          "price": 340.00
+        },
+        {
+          "dishName": "Fish and Chips",
+          "courseType": "Main Course",
+          "price": 260.00
+        },
+        {
+          "dishName": "Lasagna",
+          "courseType": "Main Course",
+          "price": 290.00
+        },
+        {
+          "dishName": "Crab Cakes",
+          "courseType": "Appetizer",
+          "price": 145.00
+        },
+        {
+          "dishName": "Caesar Wrap",
+          "courseType": "Main Course",
+          "price": 230.00
+        },
+        {
+          "dishName": "Ice Cream Sundae",
+          "courseType": "Dessert",
+          "price": 175.00
+        },
+      
+    { 
+        "dishName": "Caesar Salad", 
+        "courseType": "Appetizer", 
+        "price": 120.00 
+    },
+    { "dishName": "Tandoori Chicken", 
+        "courseType": "Main Course", 
+        "price": 350.00 
+    },
+    { "dishName": "Penne Arrabbiata", 
+        "courseType": "Pasta", 
+        "price": 280.00 
+    },
+    { "dishName": "Chicken Tikka Masala", 
+        "courseType": "Main Course", 
+        "price": 420.00 
+    },
+    { "dishName": "Vegetable Spring Rolls", 
+        "courseType": "Appetizer", 
+        "price": 150.00 
+    },
+    { "dishName": "Margherita Pizza", 
+        "courseType": "Pizza", 
+        "price": 210.00 
+    },
+    { "dishName": "Chole Bhature", 
+        "courseType": "Main Course", 
+        "price": 180.00 
+    },
+    { "dishName": "Dal Makhani", 
+        "courseType": "Side Dish", 
+        "price": 120.00 
+    },
+    { "dishName": "Sushi Platter", 
+        "courseType": "Main Course", 
+        "price": 500.00 
+    },
+    { "dishName": "French Fries", 
+        "courseType": "Side Dish", 
+        "price": 80.00 
+    },
+    { "dishName": "Tom Yum Soup", 
+        "courseType": "Soup", 
+        "price": 190.00 
+    },
+    { "dishName": "Butter Chicken", 
+        "courseType": "Main Course", 
+        "price": 380.00 
+    },
+    { "dishName": "Calamari Fritti", 
+        "courseType": "Appetizer", 
+        "price": 250.00 
+    },
+    { "dishName": "Pepperoni Pizza", 
+        "courseType": "Pizza", 
+        "price": 230.00 
+    },
+    { "dishName": "Veg Biryani",
+        "courseType": "Main Course", 
+        "price": 290.00 
+    },
+    { "dishName": "Raita", 
+        "courseType": "Side Dish", 
+        "price": 60.00 
+    },
+    { "dishName": "Spring Rolls", 
+        "courseType": "Appetizer", 
+        "price": 140.00 
+    },
+    { "dishName": "Hawaiian Pizza", 
+        "courseType": "Pizza", 
+        "price": 240.00 
+    },
+    { "dishName": "Aloo Gobi", 
+        "courseType": "Side Dish", 
+        "price": 110.00 
+    },
+    { "dishName": "Chicken Fried Rice", 
+        "courseType": "Main Course", 
+        "price": 220.00 
+    },
+    {
+         "dishName": "Minestrone Soup", 
+         "courseType": "Soup", 
+         "price": 180.00 
+    },
+    { "dishName": "Palak Paneer", 
+        "courseType": "Main Course", 
+        "price": 320.00 
+    },
+    { "dishName": "Bruschetta", 
+        "courseType": "Appetizer", 
+        "price": 160.00 
+    },
+    { 
+        "dishName": "Veg Manchurian", 
+        "courseType": "Main Course", 
+        "price": 270.00 
+    },
+    { "dishName": "Chicken Noodle Soup", 
+        "courseType": "Soup", 
+        "price": 170.00 
+    },
+    { "dishName": "Masala Dosa", 
+        "courseType": "Main Course", 
+        "price": 150.00 
+    },
+    { "dishName": "Onion Rings", 
+        "courseType": "Appetizer", 
+        "price": 130.00 
+    },
+    { "dishName": "Spaghetti Aglio e Olio", 
+        "courseType": "Pasta", 
+        "price": 250.00 
+    },
+    { "dishName": "Matar Paneer", 
+        "courseType": "Main Course", 
+        "price": 300.00 
+    
+    },
+    { "dishName": "Chicken Curry", 
+        "courseType": "Main Course", 
+    "price": 400.00 
+    },
+    { "dishName": "Caprese Salad",
+        "courseType": "Appetizer", 
+        "price": 200.00 
+    },
+    { "dishName": "Alfredo Pasta", 
+        "courseType": "Pasta", 
+        "price": 310.00 
+    }
+]
+    
+    

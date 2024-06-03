@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .head {
+    text-align: center;
+    font-size: 2em;
+    margin:  0;
+    background-color: grey;
+  }
+  
+  .container {
+    margin-top: 80px;
+    border: 2px solid black;
+    padding: 60px;
+    margin-bottom: 50px;
+    height: 100%;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search input {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .content {
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: 400px;
+    overflow-y: auto;
+  }
+  
+  .table-card, .menu-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .table-card:hover, .menu-card:hover {
+    background-color: white
+  }
+  .table-card:active{
+    background-color: orange;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .active-table {
+    background-color: orange; 
+}
+  #orderDetails {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #orderDetails th, #orderDetails td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #orderDetails th {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+
+
+  .serving-control {
+    border: none; 
+    color: white; 
+    padding: 5px 10px; 
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 0 2px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+}
+
+.minus-button {
+    background-color: #f44336; 
+    
+}
+
+.minus-button:hover {
+    background-color: #d32f2f; 
+  }
+
+.plus-button {
+    background-color: #4CAF50; 
+}
+
+.plus-button:hover {
+    background-color: #45a049; 
+}
+
+.servings-text {
+    display: inline-block; 
+    padding: 5px 10px;
+    font-size: 16px; 
+    margin: 0 5px; 
+    vertical-align: middle; 
+}
+
+th, td {
+ 
+  text-align: center; /* Center text horizontally */
+  vertical-align: middle; /* Center text vertically */
+}

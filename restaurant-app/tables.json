@@ -1,0 +1,9 @@
+{
+    "tables": [
+        { "tableNumber": 1, "totalItems": 0, "amount": 0, "orderDetails": [] },
+        { "tableNumber": 2, "totalItems": 0, "amount": 0, "orderDetails": [] },
+        { "tableNumber": 3, "totalItems": 0, "amount": 0, "orderDetails": [] },
+        { "tableNumber": 4, "totalItems": 0, "amount": 0, "orderDetails": [] },
+        { "tableNumber": 5, "totalItems": 0, "amount": 0, "orderDetails": [] }
+    ]
+}
